@@ -1,0 +1,3 @@
+Family: Trojan:Win32/Ymacco.AA44
+MD5: 956090ecfd9dc1986e4ae0afd782c1d3
+SHA256: 4444458bf47925c82431843fd147aabbfbee71ca849fc711cb69b0cea01f4747
