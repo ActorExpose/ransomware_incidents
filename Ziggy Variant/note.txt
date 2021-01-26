@@ -1,0 +1,9 @@
+Ziggy Ransomware Sample 1 Signatures
+Family: Trojan:MSIL/AntiWD.YA!MTB
+MD5: 04aaf892226b1e11ab69b4cdd90c790f
+SHA256: c7879df64ead2bbc7c22724def1c0e329e896a6cc4eca9aaeb6658879f793d74
+
+Ziggy Ransomware Sample 2 Signatures
+Family: Ransom:MSIL/ZiggyCrypter.PA!MTB
+MD5: 55cb627f9925b52bd5ae0bc5e5188bcf
+SHA256: 2608e3aee2ca61701eb8b5281b9c9f25f84f40faf3210b2cdaa188d798345a3c
