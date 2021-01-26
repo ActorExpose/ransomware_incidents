@@ -1,0 +1,6 @@
+16x Ransomware also know as Chinese ransomware encrypts its victim files and ask to send the code to 3475857701@qq.com email 
+address for ransom amount and procedure to get back files.It appends .16x extension to its encrypted files.
+
+Family: Trojan:Win32/CryptInject!ml
+MD5: 3e05cdc35f300de783fcb3dcd71e4970
+SHA256: adc220109f73acdd307036a6d14bffa68103a48e2305c3a4f1533aab74d9deb8
