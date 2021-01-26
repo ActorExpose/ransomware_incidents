@@ -1,0 +1,34 @@
+Babuk Locker Ransomware uses its own implementation of SHA256 hashing, ChaCha8 encryption, and Elliptic-curve Diffie–Hellman (ECDH) key generation and exchange algorithm to encrypt victim files and protection of the encryption keys. Its a straight forward ransomware with no obfuscations and uses multi-threading encryption as well as exploiting the Windows Restart Manager similar to Conti Ransomware and REvil. .__NIST_K571__ is added to encrypted files.
+
+It ask user to contact them at their TOR for ransom demands and get the files back. The attackers usually demands from $60,000 to $85,000 in Bitcoins.
+
+
+
+TOR Site Link: http://babukq4e2p4wu4iq.onion/login.php?id=8M60J4vCbbkKgM6QnA07E9qpkn0Qk7
+
+Family: Ransom:Win32/BabukLocker.MK!MTB
+MD5: e10713a4a5f635767dcd54d609bed977
+SHA256: 8203c2f00ecd3ae960cb3247a7d7bfb35e55c38939607c85dbdb5c92f0495fa9
+
+
+Babuk Locker Ransomware YARA Rule
+rule Babuk{
+meta:
+	description = "YARA rule for Babuk Ransomware"
+	reference = "http://chuongdong.com/reverse%20engineering/2021/01/03/BabukRansomware/"
+	author = "@cPeterr"
+	date = "2021-01-03"
+	rule_version = "v1"
+	malware_type = "ransomware"
+	tlp = "white"
+strings:
+	$lanstr1 = "-lanfirst"
+	$lanstr2 = "-lansecond"
+	$lanstr3 = "-nolan"
+	$str1 = "BABUK LOCKER"
+	$str2 = ".__NIST_K571__" wide
+	$str3 = "How To Restore Your Files.txt" wide
+	$str4 = "ecdh_pub_k.bin" wide
+condition:
+	all of ($str*) and all of ($lanstr*)
+}
