@@ -1,0 +1,8 @@
+Conti Ransomware Signatures
+Family: Ransom:Win32/Conti.MK!MTB
+MD5: 7076f9674bc42536d1e0e2ca80d1e4f6
+SHA256: ebeca2df24a55c629cf0ce0d4b703ed632819d8ac101b1b930ec666760036124
+
+
+Conti Ransomware is the successor of the notorious Ryuk Ransomware. It is contains unique features that separate it in terms of performance and focus on network-based targets. 
+Conti uses a large number of independent threads to perform encryption, allowing up to 32 simultaneous encryption efforts, resulting in faster encryption compared to many other families.
