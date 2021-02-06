@@ -1,0 +1,9 @@
+SystemBC RAT Signatures
+Family: Trojan:Win32/Glupteba.KMG!MTB
+MD5: fa4c10fa96b92f3b7d9f022fb338525a
+SHA256: f7fc24cba9247641f1608cf897c7d1f1b0adea32e724c8a3e79c3a40b235c315
+
+
+behind the latest high-profile ransomware campaigns. It used by ransomware operators to make a persistence on compromised machines. Recently it is used by
+ Ryuk Ransomware and Egregor Ransomware operators. The ransomware operators use this persistent backdoor 
+as a remote administration tool (RAT) together with the Cobalt Strike post-exploitation tool in the lateral movement stage of their attacks after gaining access to victims networks.
