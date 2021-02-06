@@ -1,0 +1,12 @@
+SUNBURST Backdoor Signatures
+Family: Trojan:MSIL/Solorigate.B!dha
+MD5: b91ce2fa41029f6955bff20079468448
+SHA256: 32519b85c0b422e4656de6e6c41878e95fd95026267daab4215
+
+
+
+Fireeye and other users of SolarWinds Orion IT monitoring and management software had been compromised by SolarWinds Supply Chain Attack. 
+Threat actor behind this attack is identified as UNC2452 or Dark Halo. This infection is caused by downloading a torjanized update from SolarWinds.
+ More than 18000 of its customers had download these updates. Once the update is downloaded and installed the backdoor remain dormant for two 
+weeks, after it started to execute task called jobs. SUNBURST uses multiple techniques to evade detection and obscure their activity. It masquerades its network traffic as the
+ Orion Improvement Program (OIP) protocol and stores reconnaissance results within legitimate plugin configuration files allowing it to blend in with legitimate SolarWinds activity.
