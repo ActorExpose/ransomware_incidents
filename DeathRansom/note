@@ -1,0 +1,5 @@
+DeathRansom encrypts user files with AES and demands a ransom of 0.1 BTC. It deletes volume shadow copies to ensure the data cannot be restored easily. After the DeathRansom performs file encryption, it will drop ransom note named "read_me.txt" in each encrypted file's directory. An extension of .wctc is added to each encrypted file.
+
+Family: Ransom:Win32/STOP
+MD5: c50ab1df254c185506ab892dc5c8e24b
+SHA256: ab828f0e0555f88e3005387cb523f221a1933bbd7db4f05902a1e5cc289e7ba4
