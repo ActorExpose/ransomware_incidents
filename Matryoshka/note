@@ -1,0 +1,5 @@
+Matryoshka Ransomware encrypts user data and asked a ransom of $75 worth of Monero (XMR) coin to return files back and gives a 20 days deadline to fulfill there demands. .matryoshka extension is added to encrypted files.
+
+Family: Ransom:MSIL/Cryptolocker.DW!MTB
+MD5: 61fccc142e2bbf498885bb6e42bae62c
+SHA256: ae91da58a702252cc0dabcf19fa65e9655c7b7143e71e048aad1ebe59a31aabf
