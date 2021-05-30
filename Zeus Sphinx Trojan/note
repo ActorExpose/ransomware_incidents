@@ -1,0 +1,11 @@
+Malicious hacker finds a way to capitalize the current corona virus epidemic. They send fake phishing emails appear to be from government about a corona relief package.This malicious document needs Macros to run, so it trick the user by showing the file is password protect and the user needs to enable macros, so the promised reward can be redeemed. Once the user enable the macro it download the latest version of the Zeus Sphinx Trojan.
+
+This campaign is just one of many campaigns who exploit the COVID-19 pandemic by stealing sensitive information and infecting their targets with malware.
+
+Family: Trojan:Win32/Casdet!rfn
+MD5: e8fcf85c39c4b99b903148cba3e2d913
+SHA256: dff2e1a0b80c26d413e9d4f96031019ce4567607e0231a80d0ee0eb1fcf429fe
+
+Family: Trojan:Win32/Occamy.C
+MD5: c6d279ac30d0a60d22c4981037580939
+SHA256: c89c43d51eba1eb522cca6ec720f778a59638a09ea07ce10a60dd1929023a8d5
