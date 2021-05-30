@@ -1,0 +1,5 @@
+BazarBackdoor is the latest tools in the TrickBot arsenal. Malware authors continues to use the COVID-19 theme to bait victims with corona virus related help or information and make the clicking and installing there malicious code. Its name Bazar come from the fact it uses Blockchain DNS bazar domain. It spread via phishing email send using SendGrid. Email Sample. Email contains a Google Docs Document which contains a link that download a executable that has either an icon of a Microsoft Word Document of Adobe PDF.
+
+Family: Trojan:Win32/Trickbot.DHJ!MTB
+MD5: fd18f895de2806d7bfe6fcbd189e4bb9
+SHA256: 1e123a6c5d65084ca6ea78a26ec4bebcfc4800642fec480d1ceeafb1cacaaa83
