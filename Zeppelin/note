@@ -1,0 +1,5 @@
+Zeppelin Ransomware is the successor of VegaLocker and is written in Delphi. Zeppelin is a highly configurable malware and can be deployed as an EXE, DLL, or wrapped in a PowerShell loader. It encrypts user data with AES-256 (CBC mode) + RSA-2048 to protect the private key and then requires a ransom to get the files back. However, it spares if the user is from CIS Countries.
+
+Family: Ransom:Win32/Zeppelin.A!MSR
+MD5: 968503a249052f5d214d3d368fe49e0c
+SHA256: 04628e5ec57c983185091f02fb16dfdac0252b2d253ffc4cd8d79f3c79de2722
