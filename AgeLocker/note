@@ -1,0 +1,5 @@
+AgeLocker use AGE (Actually Good Encryption) algorithm for encrypting victims files on QNAP servers, hence the name AgeLocker. It uses X25519, ChaChar20-Poly1305, and HMAC-SHA256 algorithms which makes it a very secure method to encrypt files. It reportedly demanded a ransom of between 1-7 BTC. It was detected in mid 2020, but after the latest attack by QLocker Ransomware on QNAP devices, an increase in AgeLocker activity is observed due which QNAP issues a High Severity warning to its customers and ask them to patch/upgrade there devices at once.
+
+Family: Trojan:Win32/Occamy.B
+MD5: d6aaf701ca65777a83baa8b43788e1b5
+SHA256: 29c2f559a9494bce3d879aff8731a5d70a3789028055fd170c90965ce9cf0ea4
