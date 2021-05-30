@@ -1,0 +1,5 @@
+Prometheus Ransomware encrypts user data with and ask a ransom of $15000 in Monero (XMR) coins. Attackers threatens to release all the data they claimed to have siphoned off.An extension is added to encrypted files by the pattern [XXX-XXX-XXXX]. An example of such an extension would be [141-5D9-Y454]. At the end of the code of each encrypted file there is the word GotAllDone.
+
+Family: Ransom:MSIL/Thanos.DC!MTB
+MD5: e1f063d63a75e0e0e864052b1a50ab06
+SHA256: 8c723af5c826adea162ef3f2e37a1cca7b43d549c9a5fab7c9ff17f65eb5d8e7
