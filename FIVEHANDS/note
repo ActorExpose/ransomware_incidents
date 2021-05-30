@@ -1,0 +1,5 @@
+FIVEHANDS ransomware uses an embedded NTRU public key. This NTRU key is SHA512 hashed and the first 32 bytes are used as the victim ID within the ransom note. This NTRU pubic key is also used to encrypt each file's symmetric key. For the symmetric key, FIVEHANDS uses an embedded generation routine to produce 16 random bytes used for an AES key to encrypt each file. FIVEHANDS ransomware is targeted toward users of SonicWall SMA 100 in European and North American countries. Attacker are exploiting a zero day vulnerability, CVE-2021-20016 in SonicWall to breach networks and deploy FIVEHANDS ransomware payloads. It is very similar to HelloKitty Ransomware and DeathRansom-Ransomware. A significant change between FIVEHANDS and its predecessors is the use of a memory-only dropper, which upon execution, expects a command line switch of -key followed by the key value necessary to perform decryption of its payload.
+
+Family: Ransom:Win32/Genasom
+MD5: f568229e696c0e82abb35ec73d162d5e
+SHA256: c2498845ed4b287fd0f95528926c8ee620ef0cbb5b27865b2007d6379ffe4323
