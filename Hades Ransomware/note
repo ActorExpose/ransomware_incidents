@@ -1,0 +1,5 @@
+An unknown threat group is deploying a variant of Hades in targeted attacks against companies with annual revenue of more than $1 Billion dollar. The threat actors take a hands-on approach and use a mix of custom tools and file-less approaches. Hades appears to infiltrate systems through internet facing systems, Remote Desktop Protocol (RDP), or Virtual Private Network (VPN) setups using legitimate credentials which may be obtained through brute-force attacks or stolen data dumps. Hades ransomware share significant code similarities between WastedLocker Ransomware by Evil Crop.
+
+Family: Trojan:Win64/LoaderCS.ZZ
+MD5: 9fa1ba3e7d6e32f240c790753cdaaf8e
+SHA256: fe997a590a68d98f95ac0b6c994ba69c3b2ece9841277b7fecd9dfaa6f589a87
