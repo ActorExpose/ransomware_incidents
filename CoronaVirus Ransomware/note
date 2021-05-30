@@ -1,0 +1,5 @@
+CoronaVirus ransomware authors decided to play on the high-profile name of the virus epidemic COVID-19 (abbreviation as CO rona VI rus D isease 2019), abbreviated CoronaVirus .It encrypts user data using AES, and then requires a ransom of 0.008 - 0.05 #BTC which is around $50 in order to return the files. It is distributed via (WiseCleaner.best) faking a legitimate Windows system utility site WiseCleaner.com. It is distributed via a file called WSHSetup.exe that currently acts as a downloader for both the CoronaVirus Ransomware and a password-stealing Trojan called Kpot. 
+
+Family: Ransom:Win32/CryptInject!MSR
+MD5: ec517204fbcf7a980d137b116afa946d
+SHA256: 3299f07bc0711b3587fe8a1c6bf3ee6bcbc14cb775f64b28a61d72ebcb8968d3
