@@ -1,0 +1,10 @@
+REvil Ransomware, also known as Sodinokibi Ransomware, is a ransomware that infects a system or network, encrypts files, and demands a ransom to for decryption. It has been evolving since its first detection and learned many trick on its destructive rampage. A recent change to the REvil ransomware allows the threat actors to automate file encryption via Safe Mode after changing changing the logged-on user's password and configuring Windows to automatically login on reboot. The ransomware change the user password to DTrump4ever using following registry addition.
+
+[HKEY_LOCAL_MACHINESOFTWAREMicrosoftWindows NTCurrentVersionWinlogon]
+"AutoAdminLogon"="1"
+"DefaultUserName"="[account_name]"
+"DefaultPassword"="DTrump4ever"
+
+Family: Ransom:Win32/Sodinokibi.DSB!MTB
+MD5: 2075566e7855679d66705741dabe82b4
+SHA256: 12d8bfa1aeb557c146b98f069f3456cc8392863a2f4ad938722cd7ca1a773b39
