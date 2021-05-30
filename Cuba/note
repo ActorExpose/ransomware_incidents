@@ -1,0 +1,5 @@
+Cuba Ransomware encrypts user data ChaCha20 and encrypt key information with RSA. Cuba Ransomware has purportedly been active since Q4, 2019. However they gained fame after publishing leaked documents from there victim companies that failed or denied to pay ransom. An extension is added to encrypted files: .cuba The file marker FIDEL.CA is also used.
+
+Family: Ransom:MacOS/Filecoder
+MD5: d8fd19fef4605b4217cb2546c470a918
+SHA256: 33352a38454cfc247bc7465bf177f5f97d7fd0bd220103d4422c8ec45b4d3d0e
